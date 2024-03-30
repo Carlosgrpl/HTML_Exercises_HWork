@@ -26,54 +26,52 @@
         }
 
         thead {
-            background-color: tomato;
+            background-color: black;
+            color: white;
         }
 
-        td,
-        th {
-            border: black 1px solid;
+        tbody {
+            border: color(black) solid 2.5px;
         }
     </style>
+
 </head>
 
 <body>
     <table>
         <thead>
-            <th>MP3 de diseño</th>
-            <th>MP3 mini</th>
-            <th>MP3 grande</th>
-        <tbody>
             <tr>
-                <td class="negrita">Capacidad de Almacenamiento</td>
-                <td><span>4GB (1000 canciones)</span>
-                    <span>8GB (2000 canciones)</span>
-                    <span>16Gb (4000 canciones)</span>
-                </td>
-                <td>
-                    <span>30 GB (20000 canciones)</span>
-                    <span>60 GB (40000 canciones)</span>
-                </td>
+                <th>MP3 de diseño</th>
+                <th colspan="3">MP3 mini</th>
+                <th colspan="2">MP3 grande</th>
+        </thead>
+        <tbody>
+            </tr>
+            <tr>
+                <td class=" negrita">Capacidad de Almacenamiento</td>
+                <td>4GB (1000 canciones)</td>
+                <td>8GB (2000 canciones)</td>
+                <td>16GB (4000 canciones)</td>
+                <td>30GB (20000 canciones)</td>
+                <td>60GB (40000 canciones)</td>
             </tr>
             <tr>
                 <td class="negrita">Colores</td>
-                <td>Azul, Verde, Rojo</td>
-                <td>Azul, Verde, Rojo</td>
+                <td colspan="3">Azul,Verde, Rojo</td>
+                <td colspan="2">Azul,Verde, Rojo</td>
             </tr>
             <tr>
-                <td class="negrita">Pantala</td>
-                <td>LCD 3cm</td>
-                <td>LCD 4cm</td>
+                <td class="negrita">Pantalla</td>
+                <td colspan="3">LCD 3cm</td>
+                <td colspan="2">LCD 4cm</td>
             </tr>
             <tr>
                 <td class="negrita">Tiempo de carga</td>
-                <td>2 horas</td>
-                <td>
-                    <div>4 horas</div>
-                    <div>6 horas</div>
-                </td>
+                <td colspan="3">2 horas</td>
+                <td colspan="1">4 horas</td>
+                <td colspan="1">6 horas</td>
             </tr>
         </tbody>
-
     </table>
 </body>
 
