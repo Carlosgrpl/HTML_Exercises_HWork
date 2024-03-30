@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejericico 2: Ejemplo tabla</title>
+    <style>
+        .negrita {
+            font-weight: bold;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            padding: 2.5px;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            background-color: beige;
+            border-collapse: separate;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            border-inline-color: black;
+        }
+
+        thead {
+            background-color: tomato;
+        }
+
+        td,
+        th {
+            border: black 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <th> </th>
+            <th class="negrita">MP3 mini</th>
+            <th>MP3 grande</th>
+        <tbody>
+            <tr>
+                <td class="negrita">Capacidad de Almacenamiento</td>
+                <td><span>4GB (1000 canciones)</span>
+                    <span>8GB (2000 canciones)</span>
+                    <span>16Gb (4000 canciones)</span>
+                </td>
+                <td>
+                    <span>30 GB (20000 canciones)</span>
+                    <span>60 GB (40000 canciones)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="negrita">Colores</td>
+                <td>Azul, Verde, Rojo</td>
+                <td>Azul, Verde, Rojo</td>
+            </tr>
+            <tr>
+                <td class="negrita">Pantala</td>
+                <td>LCD 3cm</td>
+                <td>LCD 4cm</td>
+            </tr>
+            <tr>
+                <td class="negrita">Tiempo de carga</td>
+                <td>2 horas</td>
+                <td>
+                    <div>4 horas</div>
+                    <div>6 horas</div>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+
+</html>
