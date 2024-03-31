@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de petición de información</h1>
+    </header>
+    <section>
+        <form action="input" method="post">
+
+            <fieldset>
+                <legend>Información personal</legend>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="Nombre" placeholder="Escriba su nombre">
+
+                <label for="Apellidos">Apellidos</label>
+                <input type="text" name="Apellidos" id="Apellidos" placeholder="Escriba su apellido">
+
+                <label for="Edad">Edad</label>
+                <input type="number" name="Edad" id="Edad" placeholder="Escriba su edad">
+            </fieldset>
+
+            <fieldset>
+                <legend>Información de contacto</legend>
+                <label for="Ciudad">Ciudad</label>
+                <input type="text" name="Ciudad" id="Ciudad" placeholder="Escriba su ciudad de orignen">
+
+                <label for="Número de teléfono">Número de teléfono</label>
+                <input type="number" name="Número de telefono" id="Número de telefono"
+                    placeholder="Escriba su número de telefono">
+
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Escriba su Email">
+            </fieldset>
+
+            <fieldset>
+                <legend>Otros datos</legend>
+                <label for="Subir una foto">Subir una foto:</label>
+                <input type="file" name="Subir una foto" id="Subir una foto">
+
+                <label for="Fecha nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="Fecha nacimiento" id="Fecha nacimiento" placeholder="Introducir">
+
+            </fieldset>
+
+            <fieldset>
+                <label for="Aficiones">Aficiones</label>
+                <select name="Aficiones" id="Aficiones" multiple>
+                    <option value="" selected>Aficiones</option>
+                    <option value="Leer">Leer</option>
+                    <option value="Correr">Correr</option>
+                    <option value="Nadar">Nadar</option>
+                    <option value="Videogames">Videogames</option>
+                </select>
+
+                <label for="Breve descripción">Breve descripción</label>
+                <textarea name="Breve descripción" id="Breve descripción" cols="30" rows="10"></textarea>
+            </fieldset>
+
+
+            <label for="Desea suscribirse al newsletter y recibir propaganda">¿Desea suscribirse al
+                newsletter y
+                recibir
+                propaganda?</label>
+            <input type="checkbox" name="Desea suscribirse al newsletter y recibir propaganda"
+                id="Desea suscribirse al newsletter y recibir propaganda" placeholder="Confirmar">
+
+        </form>
+    </section>
+</body>
+
+</html>
